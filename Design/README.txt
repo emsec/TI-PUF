@@ -33,10 +33,17 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 This design package shows how to apply the TI-PUF concept on Interpose PUF[1].
 To this end, the design makes use of the (1,5)-Interpose PUF, i.e., the top layer
 consists of a single 64-bit APUF, and the bottom layer a 5-XOR APUF, each a 65-bit
-APUF. The interpose bit (for the bottom layer) is 31, i.e., exactly at the middule
+APUF. The interpose bit (for the bottom layer) is 31, i.e., exactly at the middle
 of the APUFs of the bottom layer.
-The verilog files in this package are of the interpose PUF design taken from [2].
 
+The main module is in the file "TopModule.vhd".
+In order to generate the masks (in the file "Gen_Mask.vhd"), the design exemplary
+makes use of 31-bit LFSRs with maximum cycle based on [2].
+
+The verilog files in this package are of the interpose PUF design taken from [3].
 
 [1] https://doi.org/10.13154/tches.v2019.i4.243-290
-[2] https://github.com/scluconn/DA_PUF_Library
+[2] http://courses.cse.tamu.edu/walker/csce680/lfsr_table.pdf
+[3] https://github.com/scluconn/DA_PUF_Library
+
+----------------------------------------------------------------------------------

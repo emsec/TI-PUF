@@ -63,6 +63,7 @@ architecture dfl of Gen_Mask is
 	constant Inits : STD_LOGIC_VECTOR(1 to 31*(Log_size+Mask_size)) := MakeRand(31, Log_size+Mask_size);
 
 begin
+	-- 31-bit LFSR with feedback taps at position 31 & 28:  http://courses.cse.tamu.edu/walker/csce680/lfsr_table.pdf
 	
 	Gen_LFSRs: FOR i in 0 to Log_size+Mask_size-1 GENERATE
 		LFSR_Inst: entity work.LFSR_General
