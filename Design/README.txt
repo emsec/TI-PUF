@@ -4,7 +4,7 @@ AUTHOR:		Anita Aghaie, Amir Moradi
 TOIPC:		TI-PUF: Toward Side-Channel Resistant Physical Unclonable Functions
 ----------------------------------------------------------------------------------
 Copyright (c) 2019, Anita Aghaie, Amir Moradi
- All rights reserved.
+All rights reserved.
 
 BSD-3-Clause License
 Redistribution and use in source and binary forms, with or without
