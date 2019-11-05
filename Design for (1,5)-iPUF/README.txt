@@ -1,7 +1,8 @@
 ----------------------------------------------------------------------------------
 COMPANY:	Ruhr University Bochum, Embedded Security
 AUTHOR:		Anita Aghaie, Amir Moradi
-TOIPC:		TI-PUF: Toward Side-Channel Resistant Physical Unclonable Functions
+TOPIC:		TI-PUF: Toward Side-Channel Resistant Physical Unclonable Functions
+PAPER:          https://eprint.iacr.org/2019/1260
 ----------------------------------------------------------------------------------
 Copyright (c) 2019, Anita Aghaie, Amir Moradi
 All rights reserved.
